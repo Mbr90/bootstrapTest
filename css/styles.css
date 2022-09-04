@@ -1,4 +1,45 @@
 body {
-  background: red;
+  background-color: #E5E5E5;
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbar__item {
+  font-family: "Archivo Narrow", sans-serif;
+}
+
+#navbar__item--active {
+  color: #C32C72;
+}
+
+.footer__item, .navbar__item {
+  color: #8D8D8D;
+}
+
+.navbar, .footer {
+  background-color: #F4F3EE;
+}
+
+.display-1 {
+  font-size: xx-large;
+}
+
+.card__element {
+  height: 265px;
+  width: 265px;
+  background-color: #F4F3EE;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.card__element--highlight {
+  background-color: #FFFFFF;
+  border: solid 3px;
+  border-color: #C32C72;
+}
+
+.card__element--marked {
+  background-color: #C32C72;
+  border: solid 3px;
+  border-color: #FFFFFF;
 }
 /*# sourceMappingURL=styles.css.map */

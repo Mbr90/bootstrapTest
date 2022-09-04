@@ -1,0 +1,19 @@
+$primaryFont:'Open Sans', sans-serif;
+$secondaryFont:'Archivo Narrow', sans-serif;
+
+
+$colors: (
+    primary: #F4F3EE,
+    background: #E5E5E5,
+    tekst: #8D8D8D,
+    highlight: #C32C72, 
+    hvit: #FFFFFF
+);
+
+@function getColor($color) {
+    @return map-get($colors, $color)
+};
+
+
+
+

@@ -1,0 +1,50 @@
+body {
+    background-color: getColor(background);
+    font-family: $primaryFont;
+}
+
+
+.navbar__item {
+    font-family: $secondaryFont;
+}
+
+#navbar__item--active {
+    color: getColor(highlight);
+}
+
+.footer__item, .navbar__item  {
+    color:  getColor(tekst);
+}
+
+
+.navbar, .footer {background-color: getColor(primary);
+}
+
+.display-1 {
+    font-size: xx-large;
+}
+
+
+.card__element {
+    height: 265px;
+    width: 265px;
+    background-color: getColor(primary);
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.card__element--highlight{
+background-color: getColor(hvit);
+border: solid 3px ;
+border-color: getColor(highlight);
+}
+
+.card__element--marked{
+    background-color: getColor(highlight);
+    border: solid 3px ;
+    border-color: getColor(hvit);
+    }
+
+
+
+    
